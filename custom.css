@@ -37,8 +37,12 @@ body{
     margin-left: auto;
     border-radius: 2rem;
     padding: .6rem;
-    border: none;
+    border: 1px solid transparent;
     outline: none;
+}
+.form_code .post_code:focus{
+    border: 1px solid #679b9b;
+    color: darkgray;
 }
 .form_code .post_code::placeholder{
     text-align: center;
